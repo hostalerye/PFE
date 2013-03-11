@@ -9,11 +9,11 @@ object General {
     version := "0.1",
     versionCode := 0,
     scalaVersion := "2.9.2",
-    platformName in Android := "android-4.2"
+    platformName in Android := "android-17"
   )
 
   val proguardSettings = Seq (
-    useProguard in Android := false
+    useProguard in Android := true
   )
 
   lazy val fullAndroidSettings =

@@ -3681,30 +3681,30 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in compile-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in /root/PFE/cluster/project/target/resolution-cache/default/default-c595a7/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
-[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
 [0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.pom[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(doc)[0m
+[0m[[0mdebug[0m] [0mno report found for default#default-1b259f;0.0!default-1b259f.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#sbt-android-plugin;0.6.2!sbt-android-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.2.0!sbt-idea.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar[0m
@@ -3762,7 +3762,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.1!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.1!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5827ms :: artifacts dl 71ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5461ms :: artifacts dl 98ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : default#default-1b259f;0.0 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.github.mpeltonen#sbt-idea;1.2.0 / Number of dependencies = 3[0m
@@ -4594,5 +4594,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-c595a7;0.1-SNAPSHOT docs produced in /root/PFE/cluster/project/target/resolution-cache/reports/default-default-c595a7/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-c595a7;0.1-SNAPSHOT pom produced in /root/PFE/cluster/project/target/resolution-cache/reports/default-default-c595a7/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5827ms resolve - 71ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (5461ms resolve - 98ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

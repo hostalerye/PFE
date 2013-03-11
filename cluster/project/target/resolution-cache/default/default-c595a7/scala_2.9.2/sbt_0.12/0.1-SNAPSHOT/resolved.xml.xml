@@ -4,7 +4,7 @@
 		module="default-c595a7"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20130311185827"
+		publication="20130311215115"
 		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>

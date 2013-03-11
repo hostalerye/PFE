@@ -282,7 +282,7 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 49ms :: artifacts dl 4ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 80ms :: artifacts dl 5ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : cluster#cluster_2.9.2;0.1 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
@@ -337,5 +337,5 @@
 [0m[[0mdebug[0m] [0m	report for clustertests#clustertests_2.9.2;0.1 docs produced in /root/PFE/cluster/tests/target/resolution-cache/reports/clustertests-clustertests_2.9.2/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for clustertests#clustertests_2.9.2;0.1 pom produced in /root/PFE/cluster/tests/target/resolution-cache/reports/clustertests-clustertests_2.9.2/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (49ms resolve - 4ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (80ms resolve - 5ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
