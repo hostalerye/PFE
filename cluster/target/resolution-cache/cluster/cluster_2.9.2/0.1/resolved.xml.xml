@@ -4,10 +4,10 @@
 		module="cluster_2.9.2"
 		revision="0.1"
 		status="integration"
-		publication="20130311132340"
+		publication="20130311185839"
 	>
 		<description>
-		cluster
+		Cluster
 		</description>
 	</info>
 	<configurations>

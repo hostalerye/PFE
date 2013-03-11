@@ -1,5 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component 
-  version="2" name="ProjectRootManager" languageLevel="JDK_1_7" project-jdk-name="1.7" assert-keyword="true" project-jdk-type="JavaSDK" jdk-15="true">
-</component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="IdProvider" IDEtalkID="F44424C9073E6BFD814BAF4E9ECC6C97" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android SDK" project-jdk-type="Android SDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
+

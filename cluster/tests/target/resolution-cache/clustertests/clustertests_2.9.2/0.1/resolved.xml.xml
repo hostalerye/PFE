@@ -4,10 +4,10 @@
 		module="clustertests_2.9.2"
 		revision="0.1"
 		status="integration"
-		publication="20130311132348"
+		publication="20130311185839"
 	>
 		<description>
-		clusterTests
+		ClusterTests
 		</description>
 	</info>
 	<configurations>

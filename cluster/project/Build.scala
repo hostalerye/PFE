@@ -5,15 +5,15 @@ import AndroidKeys._
 
 object General {
   val settings = Defaults.defaultSettings ++ Seq (
-    name := "cluster",
+    name := "Cluster",
     version := "0.1",
     versionCode := 0,
     scalaVersion := "2.9.2",
-    platformName in Android := "android-10"
+    platformName in Android := "android-4.2"
   )
 
   val proguardSettings = Seq (
-    useProguard in Android := true
+    useProguard in Android := false
   )
 
   lazy val fullAndroidSettings =
@@ -30,7 +30,7 @@ object General {
 
 object AndroidBuild extends Build {
   lazy val main = Project (
-    "cluster",
+    "Cluster",
     file("."),
     settings = General.fullAndroidSettings
   )
@@ -41,7 +41,7 @@ object AndroidBuild extends Build {
     settings = General.settings ++
                AndroidTest.androidSettings ++
                General.proguardSettings ++ Seq (
-      name := "clusterTests"
+      name := "ClusterTests"
     )
   ) dependsOn main
 }

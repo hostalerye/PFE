@@ -4,7 +4,7 @@
 		module="cluster$sources_javadoc_2.9.2"
 		revision="0.1"
 		status="integration"
-		publication="20130311132347"
+		publication="20130311185839"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

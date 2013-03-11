@@ -1,4 +1,4 @@
-import pfe
+import pfe.cluster
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.FunSpec
 
