@@ -1,4 +1,4 @@
-cluster/.idea/*
-cluster/.idea_modules/*
+cluster/.idea/
+cluster/.idea_modules/
 *~
 \#*\#
