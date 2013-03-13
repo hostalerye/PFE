@@ -1,0 +1,11 @@
+cluster/.idea/
+cluster/.idea_modules/
+*.swp
+*~
+\#*\#
+*.apk
+*.class
+cluster/target/
+cluster/project/target/
+cluster/project/project/target/
+cluster/proguard_logs/
