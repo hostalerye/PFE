@@ -9,10 +9,10 @@
 		extra-scalaVersion="2.9.2"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130311215115"/>
+		date="20130313151451"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt-android-plugin">
-			<revision name="0.6.2" status="release" pubdate="20120815004435" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+			<revision name="0.6.2" status="release" pubdate="20120815004435" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
 				<metadata-artifact status="no" details="" size="2038" time="0" location="/root/.ivy2/cache/scala_2.9.2/sbt_0.12/org.scala-sbt/sbt-android-plugin/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/org.scala-sbt/sbt-android-plugin/scala_2.9.2/sbt_0.12/0.6.2/ivys/ivy.xml"/>
 				<caller organisation="default" name="default-c595a7" conf="optional, compile, runtime, runtime-internal" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
 				<artifacts>
@@ -23,7 +23,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.proguard" name="proguard-base">
-			<revision name="4.6" status="release" pubdate="20110913143402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+			<revision name="4.6" status="release" pubdate="20110913143402" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
 				<metadata-artifact status="no" details="" size="2777" time="0" location="/root/.ivy2/cache/net.sf.proguard/proguard-base/ivy-4.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sf/proguard/proguard-base/4.6/proguard-base-4.6.pom"/>
 				<caller organisation="org.scala-sbt" name="sbt-android-plugin" conf="compile" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="0.6.2"/>
 				<artifacts>
@@ -34,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.android.tools" name="ddmlib">
-			<revision name="r10" status="release" pubdate="20110307205905" resolver="public" artresolver="public" homepage="http://tools.android.com/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+			<revision name="r10" status="release" pubdate="20110307205905" resolver="public" artresolver="public" homepage="http://tools.android.com/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
 				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3268" time="0" location="/root/.ivy2/cache/com.google.android.tools/ddmlib/ivy-r10.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/android/tools/ddmlib/r10/ddmlib-r10.pom"/>
 				<caller organisation="org.scala-sbt" name="sbt-android-plugin" conf="compile" rev="r10" rev-constraint-default="r10" rev-constraint-dynamic="r10" callerrev="0.6.2"/>
@@ -46,10 +46,23 @@
 			</revision>
 		</module>
 		<module organisation="default" name="default-1b259f">
-			<revision name="0.0" status="integration" pubdate="20130311215107" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+			<revision name="0.0" status="integration" pubdate="20130313151442" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="default" name="default-c595a7" conf="optional, compile, runtime, runtime-internal" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
 				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.8.6" status="release" pubdate="20130209231102" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1743" time="0" location="/root/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/ivy-0.8.6.xml" searched="false" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.6/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-1b259f" conf="compile" rev="0.8.6" rev-constraint-default="0.8.6" rev-constraint-dynamic="0.8.6" callerrev="0.0" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<caller organisation="default" name="default-c595a7" conf="optional, compile, runtime, runtime-internal" rev="0.8.6" rev-constraint-default="0.8.6" rev-constraint-dynamic="0.8.6" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="116327" time="0" location="/root/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.8.6.jar">
+						<origin-location is-local="false" location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.6/jars/sbt-assembly.jar"/>
+					</artifact>
 				</artifacts>
 			</revision>
 		</module>

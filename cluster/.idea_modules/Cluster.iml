@@ -61,6 +61,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.9.2:1.8:test" level="project" />
     <orderEntry type="library" name="scala-library" level="project" />
+    <orderEntry type="library" name="config-0.3.1" level="project" />
+    <orderEntry type="library" name="akka-actor-2.0.5" level="project" />
   </component>
 </module>
 

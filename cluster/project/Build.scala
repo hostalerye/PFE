@@ -1,5 +1,4 @@
 import sbt._
-
 import Keys._
 import AndroidKeys._
 
@@ -25,13 +24,12 @@ object General {
     AndroidMarketPublish.settings ++ Seq (
       keyalias in Android := "change-me",
       resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
-      libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test",
-      libraryDependencies += "com.typesafe.akka" % "akka-actor" % "2.0.5",
-      libraryDependencies += "com.typesafe.akka" % "akka-remote" % "2.0.5"      
+      libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test"
     )
 }
 
 object AndroidBuild extends Build {
+
   lazy val main = Project (
     "Cluster",
     file("."),

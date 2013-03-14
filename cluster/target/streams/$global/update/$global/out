@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/hostalerye/Documents/ICC/PFE/PFE/cluster/}Cluster...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/root/PFE/cluster/}Cluster...[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: cluster#cluster_2.9.2;0.1[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
@@ -13,14 +13,14 @@
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
 [0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
@@ -36,32 +36,31 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.akka#akka-actor;2.0.5[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor;2.0.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor;2.0.5 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-actor;2.0.5: res=/home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-actor;2.0.5: res=/root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor;2.0.5[0m
 [0m[[0mdebug[0m] [0mTypesafe Repository: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0mauthenicating to proxy server with username [hostalerye][0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe.akka#akka-actor;2.0.5[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom (2.0.5)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-actor;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe.akka/akka-actor/ivy-2.0.5.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7673489630273882907sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp3972258660157224974sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.5!akka-actor.pom(pom.original) (429ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-actor;2.0.5: res=/home/hostalerye/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.5!akka-actor.pom(pom.original) (382ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-actor;2.0.5: res=/root/.ivy2/local/com.typesafe.akka/akka-actor/2.0.5/jars/akka-actor.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for com.typesafe.akka#akka-actor;2.0.5[0m
@@ -83,30 +82,30 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe#config;0.3.1[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;0.3.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;0.3.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /home/hostalerye/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /home/hostalerye/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;0.3.1: res=/home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /root/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /root/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;0.3.1: res=/root/.ivy2/local/com.typesafe/config/0.3.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe#config;0.3.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /home/hostalerye/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /root/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom (0.3.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /home/hostalerye/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe#config;0.3.1: tried /root/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe/config/ivy-0.3.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6233767084830192460sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp4977054089006028480sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.pom(pom.original) (354ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;0.3.1: res=/home/hostalerye/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.pom(pom.original) (241ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe#config;0.3.1: res=/root/.ivy2/local/com.typesafe/config/0.3.1/bundles/config.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for com.typesafe#config;0.3.1[0m
@@ -133,30 +132,30 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.typesafe.akka#akka-remote;2.0.5[0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote;2.0.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote;2.0.5 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-remote;2.0.5: res=/home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-remote;2.0.5: res=/root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-remote;2.0.5[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.typesafe.akka#akka-remote;2.0.5[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom (2.0.5)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.typesafe.akka#akka-remote;2.0.5: tried /root/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe.akka/akka-remote/ivy-2.0.5.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp5371232033697832438sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1769646651758572496sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote;2.0.5!akka-remote.pom(pom.original) (372ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-remote;2.0.5: res=/home/hostalerye/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote;2.0.5!akka-remote.pom(pom.original) (280ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.typesafe.akka#akka-remote;2.0.5: res=/root/.ivy2/local/com.typesafe.akka/akka-remote/2.0.5/jars/akka-remote.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for com.typesafe.akka#akka-remote;2.0.5[0m
@@ -184,13 +183,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve io.netty#netty;3.5.4.Final[0m
 [0m[[0minfo[0m] [0mResolving io.netty#netty;3.5.4.Final ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.5.4.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for io.netty#netty;3.5.4.Final: res=/home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for io.netty#netty;3.5.4.Final: res=/root/.ivy2/local/io.netty/netty/3.5.4.Final/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for io.netty#netty;3.5.4.Final[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
@@ -198,35 +197,35 @@
 [0m[[0mdebug[0m] [0m	Typesafe Repository: resource not reachable for io/netty#netty;3.5.4.Final: res=http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
 [0m[[0mdebug[0m] [0m	public: found md file for io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom (3.5.4.Final)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for io.netty#netty;3.5.4.Final: tried /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/io.netty/netty/ivy-3.5.4.Final.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2747808019561340231sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6022136913069335149sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.5.4.Final!netty.pom(pom.original) (292ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.5.4.Final!netty.pom(pom.original) (27ms)[0m
 [0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): /root/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.sonatype.oss#oss-parent;7 (resolved by sbt-chain): /root/.ivy2/cache/org.sonatype.oss/oss-parent/ivy-7.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
 [0m[[0mdebug[0m] [0m	checking org.sonatype.oss#oss-parent;7 from sbt-chain against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.sonatype.oss#oss-parent;7 from sbt-chain[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for io.netty#netty;3.5.4.Final: res=/home/hostalerye/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for io.netty#netty;3.5.4.Final: res=/root/.ivy2/local/io.netty/netty/3.5.4.Final/bundles/netty.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
@@ -247,53 +246,53 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.google.protobuf#protobuf-java;2.4.1[0m
 [0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google.protobuf#protobuf-java;2.4.1: res=/home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google.protobuf#protobuf-java;2.4.1: res=/root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.google.protobuf#protobuf-java;2.4.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom (2.4.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google.protobuf#protobuf-java;2.4.1: tried /root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp205914259933334085sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp9009843993097157871sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.pom(pom.original) (373ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.pom(pom.original) (154ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google#google;1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google#google;1 {}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /home/hostalerye/.ivy2/cache/com.google/google/ivy-1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /home/hostalerye/.ivy2/cache/com.google/google/ivy-1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google#google;1: res=/home/hostalerye/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /root/.ivy2/cache/com.google/google/ivy-1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /root/.ivy2/cache/com.google/google/ivy-1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google#google;1: res=/root/.ivy2/local/com.google/google/1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for com.google#google;1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /home/hostalerye/.ivy2/cache/com.google/google/ivy-1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /root/.ivy2/cache/com.google/google/ivy-1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for com.google#google;1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom (1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /home/hostalerye/.ivy2/cache/com.google/google/ivy-1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.google#google;1: tried /root/.ivy2/cache/com.google/google/ivy-1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.google/google/ivy-1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.google/google/ivy-1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp9185905400673841068sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6079673422356567274sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google#google;1!google.pom(pom.original) (350ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.google/google/1/jars/google.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.google/google/1/jars/google.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google#google;1: res=/home/hostalerye/.ivy2/local/com.google/google/1/jars/google.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google#google;1!google.pom(pom.original) (262ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.google/google/1/jars/google.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google/google/1/jars/google.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google#google;1: res=/root/.ivy2/local/com.google/google/1/jars/google.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.jar[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/com/google/google/1/google-1.jar[0m
@@ -307,9 +306,9 @@
 [0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for com.google#google;1; parsed=com.google#google;1[0m
 [0m[[0mdebug[0m] [0m	checking com.google#google;1 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: com.google#google;1 from Typesafe Repository[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google.protobuf#protobuf-java;2.4.1: res=/home/hostalerye/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.google.protobuf#protobuf-java;2.4.1: res=/root/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/jars/protobuf-java.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for com.google.protobuf#protobuf-java;2.4.1[0m
@@ -325,30 +324,30 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.debasishg#sjson_2.9.1;0.15[0m
 [0m[[0minfo[0m] [0mResolving net.debasishg#sjson_2.9.1;0.15 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.debasishg#sjson_2.9.1;0.15 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for net.debasishg#sjson_2.9.1;0.15: res=/home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /root/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /root/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for net.debasishg#sjson_2.9.1;0.15: res=/root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for net.debasishg#sjson_2.9.1;0.15[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /root/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for net.debasishg#sjson_2.9.1;0.15[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom (0.15)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.debasishg#sjson_2.9.1;0.15: tried /root/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/net.debasishg/sjson_2.9.1/ivy-0.15.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7183268431658711619sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp551295104018482378sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.debasishg#sjson_2.9.1;0.15!sjson_2.9.1.pom(pom.original) (350ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for net.debasishg#sjson_2.9.1;0.15: res=/home/hostalerye/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.debasishg#sjson_2.9.1;0.15!sjson_2.9.1.pom(pom.original) (146ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for net.debasishg#sjson_2.9.1;0.15: res=/root/.ivy2/local/net.debasishg/sjson_2.9.1/0.15/jars/sjson_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for net.debasishg#sjson_2.9.1;0.15[0m
@@ -367,30 +366,30 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve net.databinder#dispatch-json_2.9.1;0.8.5[0m
 [0m[[0minfo[0m] [0mResolving net.databinder#dispatch-json_2.9.1;0.8.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.databinder#dispatch-json_2.9.1;0.8.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for net.databinder#dispatch-json_2.9.1;0.8.5: res=/home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for net.databinder#dispatch-json_2.9.1;0.8.5: res=/root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for net.databinder#dispatch-json_2.9.1;0.8.5[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for net.databinder#dispatch-json_2.9.1;0.8.5[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom (0.8.5)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for net.databinder#dispatch-json_2.9.1;0.8.5: tried /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/ivy-0.8.5.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8830293484142308298sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6033996044621410411sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-json_2.9.1;0.8.5!dispatch-json_2.9.1.pom(pom.original) (353ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for net.databinder#dispatch-json_2.9.1;0.8.5: res=/home/hostalerye/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-json_2.9.1;0.8.5!dispatch-json_2.9.1.pom(pom.original) (271ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for net.databinder#dispatch-json_2.9.1;0.8.5: res=/root/.ivy2/local/net.databinder/dispatch-json_2.9.1/0.8.5/jars/dispatch-json_2.9.1.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for net.databinder#dispatch-json_2.9.1;0.8.5[0m
@@ -426,66 +425,66 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.apache.httpcomponents#httpclient;4.1[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpclient;4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpclient;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpclient;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpclient;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpclient;4.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache.httpcomponents#httpclient;4.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom (4.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpclient;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7027334546255968671sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2995617289346162114sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.pom(pom.original) (383ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.pom(pom.original) (278ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-client;4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.1 {}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-client;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-client;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-client;4.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache.httpcomponents#httpcomponents-client;4.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom (4.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-client;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-client/ivy-4.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp359743690909895197sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp978700175999392079sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.1!httpcomponents-client.pom(pom.original) (452ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.1!httpcomponents-client.pom(pom.original) (248ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;4.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;4.1.1 {}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	resolver not found: Maven Central => trying to use the one configured for org.apache.httpcomponents#project;4.1.1[0m
 [0m[[0mdebug[0m] [0m	configured resolver found for org.apache.httpcomponents#project;4.1.1: sbt-chain: saving this data[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;4.1.1[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#project;4.1.1[0m
 [0m[[0mdebug[0m] [0m	checking org.apache.httpcomponents#project;4.1.1 from sbt-chain against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache.httpcomponents#project;4.1.1 from sbt-chain[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-client;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-client;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcomponents-client/4.1/jars/httpcomponents-client.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.jar[0m
@@ -499,9 +498,9 @@
 [0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.apache.httpcomponents#httpcomponents-client;4.1; parsed=org.apache.httpcomponents#httpcomponents-client;4.1[0m
 [0m[[0mdebug[0m] [0m	checking org.apache.httpcomponents#httpcomponents-client;4.1 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache.httpcomponents#httpcomponents-client;4.1 from Typesafe Repository[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpclient;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpclient;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpclient/4.1/jars/httpclient.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for org.apache.httpcomponents#httpclient;4.1[0m
@@ -526,63 +525,63 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.apache.httpcomponents#httpcore;4.1[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcore;4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcore;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcore;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcore;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcore;4.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache.httpcomponents#httpcore;4.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom (4.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcore;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1527040263568711414sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8978959266682201532sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.pom(pom.original) (378ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.pom(pom.original) (148ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpcomponents-core;4.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.1 {}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-core;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-core;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.httpcomponents#httpcomponents-core;4.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache.httpcomponents#httpcomponents-core;4.1[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom (4.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.httpcomponents#httpcomponents-core;4.1: tried /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpcomponents-core/ivy-4.1.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7478726757500756653sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6280692576390782719sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.1!httpcomponents-core.pom(pom.original) (375ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.1!httpcomponents-core.pom(pom.original) (248ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#project;4.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;4.1.1 {}[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#project;4.1.1[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache.httpcomponents#project;4.1.1 (resolved by sbt-chain): /root/.ivy2/cache/org.apache.httpcomponents/project/ivy-4.1.1.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.httpcomponents#project;4.1.1[0m
 [0m[[0mdebug[0m] [0m	checking org.apache.httpcomponents#project;4.1.1 from sbt-chain against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache.httpcomponents#project;4.1.1 from sbt-chain[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-core;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcomponents-core;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcomponents-core/4.1/jars/httpcomponents-core.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.jar[0m
@@ -596,9 +595,9 @@
 [0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.apache.httpcomponents#httpcomponents-core;4.1; parsed=org.apache.httpcomponents#httpcomponents-core;4.1[0m
 [0m[[0mdebug[0m] [0m	checking org.apache.httpcomponents#httpcomponents-core;4.1 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache.httpcomponents#httpcomponents-core;4.1 from Typesafe Repository[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcore;4.1: res=/home/hostalerye/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.httpcomponents#httpcore;4.1: res=/root/.ivy2/local/org.apache.httpcomponents/httpcore/4.1/jars/httpcore.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for org.apache.httpcomponents#httpcore;4.1[0m
@@ -623,17 +622,26 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-logging#commons-logging;1.1.1[0m
 [0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	resolver not found: Maven Central => trying to use the one configured for commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0m	resolver not found: redefined-public => trying to use the one configured for commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0m	configured resolver found for commons-logging#commons-logging;1.1.1: sbt-chain: saving this data[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1.1[0m
-[0m[[0mdebug[0m] [0m	checking commons-logging#commons-logging;1.1.1 from sbt-chain against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-logging#commons-logging;1.1.1 from sbt-chain[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: found revision in cache: commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): but it's a default one, maybe we can find a better one[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/commons-logging/commons-logging/1.1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-logging/commons-logging/1.1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-logging#commons-logging;1.1.1: res=/root/.ivy2/local/commons-logging/commons-logging/1.1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-logging#commons-logging;1.1.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): /root/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found revision in cache: commons-logging#commons-logging;1.1.1 (resolved by sbt-chain): but it's a default one, maybe we can find a better one[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom[0m
+[0m[[0mdebug[0m] [0m	checking commons-logging#commons-logging;1.1.1[default] from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-logging#commons-logging;1.1.1[default] from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=compile[0m
@@ -651,17 +659,26 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-codec#commons-codec;1.4[0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m	resolver not found: redefined-public => trying to use the one configured for commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0m	configured resolver found for commons-codec#commons-codec;1.4: sbt-chain: saving this data[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-codec#commons-codec;1.4 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-codec#commons-codec;1.4 (resolved by sbt-chain): /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.4[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-codec#commons-codec;1.4 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.4[0m
-[0m[[0mdebug[0m] [0m	checking commons-codec#commons-codec;1.4 from sbt-chain against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-codec#commons-codec;1.4 from sbt-chain[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-codec#commons-codec;1.4 (resolved by sbt-chain): /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	local: found revision in cache: commons-codec#commons-codec;1.4 (resolved by sbt-chain): but it's a default one, maybe we can find a better one[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/commons-codec/commons-codec/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-codec/commons-codec/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-codec#commons-codec;1.4: res=/root/.ivy2/local/commons-codec/commons-codec/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for commons-codec#commons-codec;1.4[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for commons-codec#commons-codec;1.4 (resolved by sbt-chain): /root/.ivy2/cache/commons-codec/commons-codec/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found revision in cache: commons-codec#commons-codec;1.4 (resolved by sbt-chain): but it's a default one, maybe we can find a better one[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.4/commons-codec-1.4.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/commons-codec/commons-codec/1.4/commons-codec-1.4.pom[0m
+[0m[[0mdebug[0m] [0m	checking commons-codec#commons-codec;1.4[default] from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: commons-codec#commons-codec;1.4[default] from sbt-chain[0m
 [0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=compile[0m
@@ -671,13 +688,74 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.objenesis#objenesis;1.2[0m
 [0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.objenesis#objenesis;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.objenesis#objenesis;1.2 (resolved by Typesafe Repository): /home/hostalerye/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.objenesis#objenesis;1.2[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.objenesis#objenesis;1.2 (resolved by Typesafe Repository): /home/hostalerye/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.objenesis#objenesis;1.2[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.objenesis/objenesis/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.objenesis/objenesis/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.objenesis#objenesis;1.2: res=/root/.ivy2/local/org.objenesis/objenesis/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.objenesis#objenesis;1.2[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.objenesis#objenesis;1.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom (1.2)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.objenesis/objenesis/ivy-1.2.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6335971265244137611sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.objenesis#objenesis;1.2!objenesis.pom(pom.original) (142ms)[0m
+[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis-parent;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.objenesis#objenesis-parent;1.2 {}[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis-parent;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis-parent/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis-parent;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis-parent/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.objenesis#objenesis-parent;1.2: res=/root/.ivy2/local/org.objenesis/objenesis-parent/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.objenesis#objenesis-parent;1.2[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis-parent;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis-parent/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.objenesis#objenesis-parent;1.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom (1.2)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.objenesis#objenesis-parent;1.2: tried /root/.ivy2/cache/org.objenesis/objenesis-parent/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.objenesis/objenesis-parent/ivy-1.2.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1402084562862428813sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.objenesis#objenesis-parent;1.2!objenesis-parent.pom(pom.original) (245ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.objenesis#objenesis-parent;1.2: res=/root/.ivy2/local/org.objenesis/objenesis-parent/1.2/jars/objenesis-parent.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: resource not reachable for org/objenesis#objenesis-parent;1.2: res=http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: resource not reachable for org/objenesis#objenesis-parent;1.2: res=http://repo1.maven.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.objenesis#objenesis-parent;1.2; parsed=org.objenesis#objenesis-parent;1.2[0m
+[0m[[0mdebug[0m] [0m	checking org.objenesis#objenesis-parent;1.2 from Typesafe Repository against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.objenesis#objenesis-parent;1.2 from Typesafe Repository[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.objenesis/objenesis/1.2/jars/objenesis.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.objenesis/objenesis/1.2/jars/objenesis.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.objenesis#objenesis;1.2: res=/root/.ivy2/local/org.objenesis/objenesis/1.2/jars/objenesis.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for org.objenesis#objenesis;1.2[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for org.objenesis#objenesis;1.2[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.objenesis#objenesis;1.2; parsed=org.objenesis#objenesis;1.2[0m
 [0m[[0mdebug[0m] [0m	checking org.objenesis#objenesis;1.2 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.objenesis#objenesis;1.2 from Typesafe Repository[0m
 [0m[[0mdebug[0m] [0m	found org.objenesis#objenesis;1.2 in Typesafe Repository[0m
@@ -689,66 +767,92 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve commons-io#commons-io;1.4[0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;1.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /home/hostalerye/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /home/hostalerye/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-io#commons-io;1.4: res=/home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /root/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /root/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-io#commons-io;1.4: res=/root/.ivy2/local/commons-io/commons-io/1.4/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for commons-io#commons-io;1.4[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /home/hostalerye/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /root/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for commons-io#commons-io;1.4[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom (1.4)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /home/hostalerye/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for commons-io#commons-io;1.4: tried /root/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/commons-io/commons-io/ivy-1.4.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp3739393315724422190sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6699513189480541153sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;1.4!commons-io.pom(pom.original) (437ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;1.4!commons-io.pom(pom.original) (140ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-parent;7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;7 {}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /home/hostalerye/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /home/hostalerye/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.commons#commons-parent;7: res=/home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /root/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /root/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.commons#commons-parent;7: res=/root/.ivy2/local/org.apache.commons/commons-parent/7/ivys/ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.commons#commons-parent;7[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /home/hostalerye/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /root/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache.commons#commons-parent;7[0m
 [0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom (7)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@154e4751[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /home/hostalerye/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache.commons#commons-parent;7: tried /root/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml[0m
 [0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml.original.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.commons/commons-parent/ivy-7.xml.original.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2908448500153854033sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp936456461969159219sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;7!commons-parent.pom(pom.original) (434ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-parent;7!commons-parent.pom(pom.original) (260ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;4 {}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	resolver not found: redefined-public => trying to use the one configured for org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	configured resolver found for org.apache#apache;4: sbt-chain: saving this data[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache#apache;4 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.apache#apache;4 (resolved by sbt-chain): /home/hostalerye/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache#apache;4[0m
-[0m[[0mdebug[0m] [0m	checking org.apache#apache;4 from sbt-chain against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache#apache;4 from sbt-chain[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.commons#commons-parent;7: res=/home/hostalerye/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache#apache;4: tried /root/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache#apache;4: tried /root/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache/apache/4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache/apache/4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache#apache;4: res=/root/.ivy2/local/org.apache/apache/4/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache#apache;4[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache#apache;4: tried /root/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for org.apache#apache;4[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom (4)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.apache#apache;4: tried /root/.ivy2/cache/org.apache/apache/ivy-4.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache/apache/ivy-4.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8925866190994523121sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache#apache;4!apache.pom(pom.original) (419ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache/apache/4/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache/apache/4/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache#apache;4: res=/root/.ivy2/local/org.apache/apache/4/jars/apache.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: resource not reachable for org/apache#apache;4: res=http://repo.typesafe.com/typesafe/releases/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m	public: resource not reachable for org/apache#apache;4: res=http://repo1.maven.org/maven2/org/apache/apache/4/apache-4.jar[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.apache#apache;4; parsed=org.apache#apache;4[0m
+[0m[[0mdebug[0m] [0m	checking org.apache#apache;4 from Typesafe Repository against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache#apache;4 from Typesafe Repository[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.apache.commons#commons-parent;7: res=/root/.ivy2/local/org.apache.commons/commons-parent/7/jars/commons-parent.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.jar[0m
 [0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/apache/commons/commons-parent/7/commons-parent-7.jar[0m
@@ -762,9 +866,9 @@
 [0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.apache.commons#commons-parent;7; parsed=org.apache.commons#commons-parent;7[0m
 [0m[[0mdebug[0m] [0m	checking org.apache.commons#commons-parent;7 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.apache.commons#commons-parent;7 from Typesafe Repository[0m
-[0m[[0mdebug[0m] [0m	 trying /home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-io#commons-io;1.4: res=/home/hostalerye/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for commons-io#commons-io;1.4: res=/root/.ivy2/local/commons-io/commons-io/1.4/jars/commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
 [0m[[0mdebug[0m] [0mno source artifact found for commons-io#commons-io;1.4[0m
@@ -807,11 +911,7 @@
 [0m[[0mdebug[0m] [0mloadData of org.apache.httpcomponents#httpcore;4.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of org.objenesis#objenesis;1.2 of rootConf=compile[0m
@@ -832,13 +932,35 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve voldemort.store.compress#h2-lzf;1.0[0m
 [0m[[0minfo[0m] [0mResolving voldemort.store.compress#h2-lzf;1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: voldemort.store.compress#h2-lzf;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
-[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for voldemort.store.compress#h2-lzf;1.0 (resolved by Typesafe Repository): /home/hostalerye/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: voldemort.store.compress#h2-lzf;1.0[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for voldemort.store.compress#h2-lzf;1.0 (resolved by Typesafe Repository): /home/hostalerye/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: voldemort.store.compress#h2-lzf;1.0[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for voldemort.store.compress#h2-lzf;1.0: tried /root/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for voldemort.store.compress#h2-lzf;1.0: tried /root/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for voldemort.store.compress#h2-lzf;1.0: res=/root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for voldemort.store.compress#h2-lzf;1.0[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for voldemort.store.compress#h2-lzf;1.0: tried /root/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: found md file for voldemort.store.compress#h2-lzf;1.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom (1.0)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@5cbd770e[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for voldemort.store.compress#h2-lzf;1.0: tried /root/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/voldemort.store.compress/h2-lzf/ivy-1.0.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp3523404125516516701sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] voldemort.store.compress#h2-lzf;1.0!h2-lzf.pom(pom.original) (170ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/jars/h2-lzf.jar[0m
+[0m[[0mdebug[0m] [0m		tried /root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/jars/h2-lzf.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for voldemort.store.compress#h2-lzf;1.0: res=/root/.ivy2/local/voldemort.store.compress/h2-lzf/1.0/jars/h2-lzf.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for voldemort.store.compress#h2-lzf;1.0[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for voldemort.store.compress#h2-lzf;1.0[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for voldemort.store.compress#h2-lzf;1.0; parsed=voldemort.store.compress#h2-lzf;1.0[0m
 [0m[[0mdebug[0m] [0m	checking voldemort.store.compress#h2-lzf;1.0 from Typesafe Repository against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: voldemort.store.compress#h2-lzf;1.0 from Typesafe Repository[0m
 [0m[[0mdebug[0m] [0m	found voldemort.store.compress#h2-lzf;1.0 in Typesafe Repository[0m
@@ -1124,13 +1246,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
@@ -1406,13 +1522,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
@@ -1447,12 +1557,12 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scalatest#scalatest_2.9.2;1.8[0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.9.2;1.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.9.2;1.8 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.9.2;1.8 (resolved by public): /home/hostalerye/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.9.2;1.8 (resolved by public): /root/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.9.2;1.8[0m
-[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/hostalerye/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
-[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.9.2;1.8 (resolved by public): /home/hostalerye/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /root/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scalatest#scalatest_2.9.2;1.8 (resolved by public): /root/.ivy2/cache/org.scalatest/scalatest_2.9.2/ivy-1.8.xml[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.9.2;1.8[0m
 [0m[[0mdebug[0m] [0m	checking org.scalatest#scalatest_2.9.2;1.8 from public against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.scalatest#scalatest_2.9.2;1.8 from public[0m
@@ -1724,13 +1834,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
@@ -2012,13 +2116,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
@@ -2300,13 +2398,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mloadData of commons-logging#commons-logging;1.1.1 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.httpcomponents#httpclient;4.1->commons-codec#commons-codec;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0mloadData of commons-codec#commons-codec;1.4 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.debasishg#sjson_2.9.1;0.15->org.objenesis#objenesis;1.2 [runtime->runtime(*)][0m
@@ -2383,7 +2475,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2393,7 +2485,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2437,7 +2529,7 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/cluster/cluster_2.9.2/0.1/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /root/PFE/cluster/target/resolution-cache/cluster/cluster_2.9.2/0.1/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
@@ -2455,115 +2547,133 @@
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.5.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe.akka/akka-actor/jars/akka-actor-2.0.5.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1388262894107915770sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp65457520921266786sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-actor/2.0.5/akka-actor-2.0.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.5!akka-actor.jar (5191ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor;2.0.5!akka-actor.jar (1112ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe.akka/akka-remote/jars/akka-remote-2.0.5.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe.akka/akka-remote/jars/akka-remote-2.0.5.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp9211623006481494306sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1038017192533890971sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/akka/akka-remote/2.0.5/akka-remote-2.0.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote;2.0.5!akka-remote.jar (1135ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote;2.0.5!akka-remote.jar (299ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.typesafe/config/bundles/config-0.3.1.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.typesafe/config/bundles/config-0.3.1.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp896705293534265954sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8089248802620940943sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/typesafe/config/0.3.1/config-0.3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.jar(bundle) (786ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;0.3.1!config.jar(bundle) (264ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar ...[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/io.netty/netty/bundles/netty-3.5.4.Final.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/io.netty/netty/bundles/netty-3.5.4.Final.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp4645061671454147362sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1584996241767411165sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/netty/netty/3.5.4.Final/netty-3.5.4.Final.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.5.4.Final!netty.jar(bundle) (1198ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.5.4.Final!netty.jar(bundle) (204ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8304310345686822832sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1905389082177170959sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar (1888ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar (328ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/net.debasishg/sjson_2.9.1/jars/sjson_2.9.1-0.15.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/net.debasishg/sjson_2.9.1/jars/sjson_2.9.1-0.15.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp5016857543866026322sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1300763375866044262sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/net/debasishg/sjson_2.9.1/0.15/sjson_2.9.1-0.15.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.debasishg#sjson_2.9.1;0.15!sjson_2.9.1.jar (902ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] voldemort.store.compress#h2-lzf;1.0!h2-lzf.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.debasishg#sjson_2.9.1;0.15!sjson_2.9.1.jar (273ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/voldemort.store.compress/h2-lzf/jars/h2-lzf-1.0.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6099806792750160257sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/voldemort/store/compress/h2-lzf/1.0/h2-lzf-1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] voldemort.store.compress#h2-lzf;1.0!h2-lzf.jar (254ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/net.databinder/dispatch-json_2.9.1/jars/dispatch-json_2.9.1-0.8.5.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/net.databinder/dispatch-json_2.9.1/jars/dispatch-json_2.9.1-0.8.5.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6598347875823929372sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8348328973355166469sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/net/databinder/dispatch-json_2.9.1/0.8.5/dispatch-json_2.9.1-0.8.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-json_2.9.1;0.8.5!dispatch-json_2.9.1.jar (568ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.databinder#dispatch-json_2.9.1;0.8.5!dispatch-json_2.9.1.jar (256ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-1.2.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp595277332674763154sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.objenesis#objenesis;1.2!objenesis.jar (252ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/commons-io/commons-io/jars/commons-io-1.4.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/commons-io/commons-io/jars/commons-io-1.4.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp3792192017645795596sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6015448925164834573sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/commons-io/commons-io/1.4/commons-io-1.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;1.4!commons-io.jar (679ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;1.4!commons-io.jar (277ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6948554102341515076sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp698111349103379222sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.jar (1208ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.1!httpclient.jar (306ms)[0m
 [0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
 [0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
 [0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar ...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/hostalerye/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.jar.part[0m
+[0m[[0mdebug[0m] [0m		to /root/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.jar.part[0m
 [0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar: checking...[0m
 [0m[[0mdebug[0m] [0m	Typesafe Repository: downloading http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6121619324270403242sha1[0m
+[0m[[0mdebug[0m] [0m		to /tmp/ivytmp6752183379150401816sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.jar (832ms)[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.1!httpcore.jar (282ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1.1!commons-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.4!commons-codec.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.9.2;1.8!scalatest_2.9.2.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11124ms :: artifacts dl 14449ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 9471ms :: artifacts dl 4202ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2574,7 +2684,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2608,14 +2718,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.objenesis#objenesis;1.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : voldemort.store.compress#h2-lzf;1.0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 compile produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 compile produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/compile-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2626,7 +2736,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2660,14 +2770,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.objenesis#objenesis;1.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : voldemort.store.compress#h2-lzf;1.0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 runtime produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 runtime produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/runtime-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2678,7 +2788,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2715,18 +2825,18 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.9.2;1.8 / Number of dependencies = 13[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.9.2;1.8[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 test produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 test produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 provided produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 provided produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 optional produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 optional produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/optional-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2737,7 +2847,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2771,14 +2881,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.objenesis#objenesis;1.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : voldemort.store.compress#h2-lzf;1.0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 compile-internal produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 compile-internal produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/compile-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2789,7 +2899,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2823,14 +2933,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.objenesis#objenesis;1.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;1.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : voldemort.store.compress#h2-lzf;1.0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 runtime-internal produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 runtime-internal produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/runtime-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe.akka#akka-actor;2.0.5 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.typesafe#config;0.3.1 / Number of dependencies = 4[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-codec#commons-codec;1.4 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-codec#commons-codec;1.4[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe#config;0.3.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.akka#akka-actor;2.0.5[0m
@@ -2841,7 +2951,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.4.Final / Number of dependencies = 16[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : com.google.protobuf#protobuf-java;2.4.1 / Number of dependencies = 3[0m
 [0m[[0mdebug[0m] [0mSort done for : com.google.protobuf#protobuf-java;2.4.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 5[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : commons-logging#commons-logging;1.1.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : commons-logging#commons-logging;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.4.Final[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.protobuf#protobuf-java;2.4.1[0m
@@ -2878,14 +2988,14 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalatest#scalatest_2.9.2;1.8 / Number of dependencies = 13[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalatest#scalatest_2.9.2;1.8[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 test-internal produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 test-internal produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/test-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 plugin produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 plugin produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/plugin-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 sources produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 sources produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/sources-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 docs produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 docs produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 pom produced in /home/hostalerye/Documents/ICC/PFE/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (11124ms resolve - 14449ms download)[0m
+[0m[[0mdebug[0m] [0m	report for cluster#cluster_2.9.2;0.1 pom produced in /root/PFE/cluster/target/resolution-cache/reports/cluster-cluster_2.9.2/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (9471ms resolve - 4202ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

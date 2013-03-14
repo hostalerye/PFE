@@ -1,7 +1,9 @@
 -injars /root/.sbt/boot/scala-2.9.2/lib/scala-library.jar(!META-INF/MANIFEST.MF,!library.properties)
--outjar /root/PFE/cluster/target/scala-2.9.2/cache/proguard_cache/scala-library.CKSUM.jar
+-injars /root/Downloads/akka-2.0.5/lib/akka/akka-actor-2.0.5.jar
+-injars /root/Downloads/akka-2.0.5/lib/akka/config-0.3.1.jar(!META-INF/MANIFEST.MF)
 -libraryjars /root/adt-bundle-linux-x86_64-20130219/sdk/platforms/android-17/android.jar
 -libraryjars /usr/lib/jvm/jdk1.7.0_07/jre/lib/rt.jar
+-outjar /root/PFE/cluster/out.jar
 
 -dontwarn scala.**
 
@@ -44,3 +46,39 @@
 -keep public class * extends android.app.Service
 -keep public class * extends android.content.BroadcastReceiver
 -keep public class * extends android.content.ContentProvider
+
+-dontwarn org.jboss.netty.logging.**
+-dontwarn org.osgi.**
+-dontwarn javax.servlet.**
+-dontwarn org.jboss.netty.channel.socket.http.**
+ 
+## Unsafe is there at runtime
+-dontwarn sun.misc.Unsafe
+-keep class sun.misc.Unsafe{
+  *;
+}
+ 
+## Stuff referenced at runtime
+-keep public class akka.actor.LocalActorRefProvider {
+  public <init>(...);
+}
+-keep public class akka.remote.RemoteActorRefProvider {
+  public <init>(...);
+}
+-keep class akka.actor.SerializedActorRef {
+  *;
+}
+
+-keep class akka.serialization.JavaSerializer {
+  *;
+}
+-keep class akka.serialization.ProtobufSerializer {
+  *;
+}
+-keep class com.google.protobuf.GeneratedMessage {
+  *;
+}
+-keep class akka.event.Logging*
+-keep class akka.event.Logging$LogExt{
+  *;
+}
