@@ -9,3 +9,4 @@ cluster/target/
 cluster/project/target/
 cluster/project/project/target/
 cluster/proguard_logs/
+cluster/tests/target/
