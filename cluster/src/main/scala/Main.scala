@@ -6,24 +6,13 @@ import akka.actor.{Props, ActorSystem, Actor}
 
 
   class Main extends Activity with TypedActivity {
-    var txt = "hello"
     override def onCreate(bundle: Bundle) {
       super.onCreate(bundle)
       setContentView(R.layout.main)
-
-
-      val system = ActorSystem("HelloSystem")
-      // default Actor constructor
-      val helloActor = system.actorOf(Props[HelloActor], name = "helloactor")
-      helloActor ! "hello"
-
-      findView(TR.textview).setText(txt)
+      val hello = HelloWorld.run()
+      findView(TR.textview).setText(hello)
     }
-    class HelloActor extends Actor {
-      def receive = {
-        case "hello" => txt =  "hello world"
-      }
-    }
+
   }
 
 
