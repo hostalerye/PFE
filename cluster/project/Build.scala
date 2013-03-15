@@ -23,11 +23,7 @@ object General {
     proguardSettings ++
     AndroidManifestGenerator.settings ++
     AndroidMarketPublish.settings ++ Seq (
-      keyalias in Android := "change-me",
-      resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
-      libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test",
-      libraryDependencies += "com.typesafe.akka" % "akka-actor" % "2.0.5",
-      libraryDependencies += "com.typesafe.akka" % "akka-remote" % "2.0.5"      
+      keyalias in Android := "change-me"
     )
 }
 
