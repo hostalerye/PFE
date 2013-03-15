@@ -7,6 +7,6 @@ cluster/.idea_modules/
 *.class
 cluster/target/
 cluster/project/target/
-cluster/project/project/target/
+cluster/project/project/
 cluster/proguard_logs/
 cluster/tests/target/
