@@ -32,10 +32,7 @@ object HelloWorld {
     val helloActor = system.actorOf(Props[HelloActor], name = "helloactor")
     implicit val timeout = Timeout(100 millis)
     val future: Future[String] = ask(helloActor, "hello").mapTo[String]
-    /*val result = Await.result(future, timeout.duration)
-    result.toString        */
-    var res = ""
-    future.onComplete(_ => {res = future.value.toString})
-    res
+    val result = Await.result(future, timeout.duration)
+    result.toString
   }
 }
