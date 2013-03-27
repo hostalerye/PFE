@@ -7,7 +7,7 @@ import com.typesafe.config.ConfigFactory
 import akka.actor.{ ActorRef, Props, Actor, ActorSystem }
 
 import java.util.concurrent.CountDownLatch
-
+  /*
 object PiClient extends App {
 
   calculate(nrOfWorkers = 4, nrOfElements = 10000, nrOfMessages = 10000)
@@ -19,4 +19,4 @@ object PiClient extends App {
     // start the calculation
     master ! Calculate
   }
-}
+}        */
