@@ -16,19 +16,16 @@ import akka.util.Duration
 import akka.util.duration._  */
 
 class Emitter extends Actor {
-  def calculate(nrOfWorkers: Int, nrOfElements: Int, nrOfMessages: Int) = {
-    val system = ActorSystem("PiClient", ConfigFactory.load.getConfig("remotelookup"))
-    val master = system.actorFor("akka://PiServer@127.0.0.1:2552/user/master")
-
-    // start the calculation
-    master ! Calculate
-    context.system.shutdown()
-  }
+  val system = ActorSystem("PiClient", ConfigFactory.load.getConfig("remotelookup"))
+  val master = system.actorFor("akka.tcp://PiServer@172.17.6.111:2552/user/master")
 
   def receive = {
     case _ =>
       println("wololo")
-      calculate(nrOfWorkers = 4, nrOfElements = 10000, nrOfMessages = 10000)
+      // start the calculation
+      master ! Calculate
+      context.system.shutdown()
+      println("derpderp")
   }
 }
 
@@ -40,7 +37,7 @@ class Emitter extends Actor {
       // val hello = HelloWorld.run()
       findView(TR.textview).setText("hello world!")
       println("hello world!")
-      val system = ActorSystem("MySystem")
+      val system = ActorSystem()
       val emit = system.actorOf(Props[Emitter], name = "emit")
       println("emitter created")
       emit ! "launch"
