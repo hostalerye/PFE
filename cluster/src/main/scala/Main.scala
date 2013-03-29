@@ -1,10 +1,13 @@
 package pfe.cluster
 
 import _root_.android.app.Activity
-import _root_.android.os.Bundle
+import android.os.{AsyncTask, StrictMode, Bundle}
 import util.Random
 import akka.actor._
+import Actor._
+import akka.remote._
 import com.typesafe.config.ConfigFactory
+import scala.concurrent.ops._
 
 /**
  * Copyright (C) 2009-2012 Typesafe Inc. <http://www.typesafe.com>
@@ -16,33 +19,42 @@ import akka.util.Duration
 import akka.util.duration._  */
 
 class Emitter extends Actor {
-  val system = ActorSystem("PiClient", ConfigFactory.load.getConfig("remotelookup"))
-  val master = system.actorFor("akka.tcp://PiServer@172.17.6.111:2552/user/master")
 
   def receive = {
-    case _ =>
-      println("wololo")
+    case (actor: ActorRef, message: PiMessage) =>
+      println("~~ wololo ~~")
       // start the calculation
-      master ! Calculate
+      actor ! message
       context.system.shutdown()
-      println("derpderp")
+      println("~~ niais ~~")
   }
 }
 
-  class Main extends Activity with TypedActivity {
 
+
+  class Main extends Activity with TypedActivity {
+    implicit def toRunnable[F](f: => F): Runnable = new Runnable() { def run() = f }
     override def onCreate(bundle: Bundle) {
       super.onCreate(bundle)
       setContentView(R.layout.main)
       // val hello = HelloWorld.run()
       findView(TR.textview).setText("hello world!")
-      println("hello world!")
-      val system = ActorSystem()
-      val emit = system.actorOf(Props[Emitter], name = "emit")
-      println("emitter created")
-      emit ! "launch"
-      println("launched")
-
+      spawn {
+        println("hello world!")
+        try{
+          val system = ActorSystem("Main", ConfigFactory.load.getConfig("remotelookup"))
+          println("system")
+          val emit = system.actorOf(Props[Emitter], name = "emit")
+          println("emitter created")
+          val master = system.actorFor("akka://PiServer@172.17.6.111:2554/user/master")
+          println("master created")
+          emit ! (master, Calculate)
+          println("launched")
+        }
+        catch{
+          case _ => println("Something went wrong")
+        }
+      }
     }
 
   }
