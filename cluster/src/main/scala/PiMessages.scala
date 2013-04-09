@@ -1,7 +1,7 @@
 package pfe.cluster
 
-import akka.util.Duration
-import akka.util.duration._
+//import akka.util.Duration
+import concurrent.duration.Duration
 
 sealed trait PiMessage
 case class Calculate(numTerms: Int) extends PiMessage

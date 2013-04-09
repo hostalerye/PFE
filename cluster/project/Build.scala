@@ -7,7 +7,7 @@ object General {
     name := "Cluster",
     version := "0.1",
     versionCode := 0,
-    scalaVersion := "2.9.2",
+    scalaVersion := "2.10.0",
     platformName in Android := "android-17"
   )
 
@@ -24,10 +24,7 @@ object General {
     AndroidManifestGenerator.settings ++
     AndroidMarketPublish.settings ++ Seq (
       keyalias in Android := "change-me",
-      resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
-      libraryDependencies += "org.scalatest" %% "scalatest" % "1.8" % "test",
-      libraryDependencies += "com.typesafe.akka" % "akka-actor" % "2.0.5",
-      libraryDependencies += "com.typesafe.akka" % "akka-remote" % "2.0.5"
+      resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
     )
 }
 
@@ -38,14 +35,4 @@ object AndroidBuild extends Build {
     file("."),
     settings = General.fullAndroidSettings
   )
-
-  lazy val tests = Project (
-    "tests",
-    file("tests"),
-    settings = General.settings ++
-               AndroidTest.androidSettings ++
-               General.proguardSettings ++ Seq (
-      name := "ClusterTests"
-    )
-  ) dependsOn main
 }

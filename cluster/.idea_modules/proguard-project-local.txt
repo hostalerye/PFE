@@ -1,0 +1,125 @@
+-injars /root/Downloads/scala-2.10.0/lib/scala-library.jar(!META-INF/MANIFEST.MF,!library.properties)
+-injars /root/Downloads/scala-2.10.0/lib/scala-reflect.jar(!META-INF/MANIFEST.MF,!reflect.properties)
+-injars /root/Downloads/scala-2.10.0/lib/scala-compiler.jar(!META-INF/MANIFEST.MF,!compiler.properties)
+-injars /root/Downloads/akka-2.1.2/lib/akka/akka-actor_2.10-2.1.2.jar
+-libraryjars /root/adt-bundle-linux-x86_64-20130219/sdk/platforms/android-17/android.jar
+-libraryjars /root/Downloads/akka-2.1.2/lib/akka/config-1.0.0.jar(!META-INF/MANIFEST.MF)
+-libraryjars /usr/lib/jvm/jdk1.7.0_07/jre/lib/rt.jar
+-outjar /root/PFE/cluster/out.jar
+-dontoptimize
+-dontobfuscate
+
+
+-dontwarn ch.epfl.lamp.compiler.msil.emit.**
+-keepdirectories
+
+-dontwarn com.google.common.collect.MinMaxPriorityQueue
+-dontwarn com.google.common.primitives.UnsignedBytes$*
+
+-dontnote android.app.backup.BackupAgentHelper
+-dontnote com.android.vending.licensing.ILicensingService
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+##############################################################################
+## Scala specific settings
+
+-dontwarn **$$anonfun$*
+-dontwarn scala.android.**
+-dontwarn scala.beans.ScalaBeanInfo
+-dontwarn scala.collection.generic.GenTraversableFactory
+-dontwarn scala.collection.immutable.RedBlack$Empty
+-dontwarn scala.concurrent.forkjoin.**
+-dontwarn scala.reflect.**
+-dontwarn scala.sys.process.**
+-dontwarn scala.tools.**,plugintemplate.**
+
+#(org.xml.sax.EntityResolver)Class.forName(variable).newInstance()
+-dontnote org.xml.sax.EntityResolver
+
+#(org.apache.james.mime4j.storage.StorageProvider)Class.forName(variable).newInstance()
+-dontnote org.apache.james.mime4j.storage.DefaultStorageProvider
+
+-dontnote scala.android.app.Activity
+
+-keep class scala.android.package**
+-keep class scala.collection.SeqLike {
+    public protected *;
+}
+-keep class * extends scala.android.app.Activity
+-keep class * extends scala.runtime.MethodCache {
+    public <methods>;
+}
+
+-keepclassmembers class * {
+    ** MODULE$;
+}
+
+-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinPool {
+    long eventCount;
+    int  workerCounts;
+    int  runControl;
+}
+
+-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinWorkerThread {
+    int base;
+    int sp;
+    int runState;
+}
+
+-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinTask {
+    int status;
+}
+
+-keepclassmembernames class scala.concurrent.forkjoin.LinkedTransferQueue {
+}
+
+-dontwarn scala.concurrent.impl.AbstractPromise
+-keep class scala.concurrent.impl.AbstractPromise { *;}
+
+-dontwarn scala.concurrent.util.Unsafe
+-keep class scala.concurrent.util.Unsafe { *;}
+ 
+## Stuff referenced at runtime
+
+
+-keep class akka.actor.** {
+  *;
+}
+-keep class akka.event.Logging*
+-keep class akka.event.Logging$LogExt{
+  *;
+}
+-keep class com.typesafe.config.Config*
