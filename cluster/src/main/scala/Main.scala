@@ -68,7 +68,7 @@ class Main extends Activity with TypedActivity {
     //val button = (findViewById(R.id.buttonCall))
     button.setOnClickListener { view : View =>
     val future_pi:Future[String] = Pi.calculate(nrOfWorkers = 4, nrOfElements = 100, nrOfMessages = 100)
-    textView.setText("Calculate launch ;")
+    textView.setText("Calculate launch")
 
       future_pi onComplete {
         _ =>  println("Worker Pi Says : "+future_pi.value.toString+" ;")
